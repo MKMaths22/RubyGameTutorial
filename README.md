@@ -1,0 +1,5 @@
+This project initially followed the tutorial by Dmitry Tsepelev at https://dmitrytsepelev.dev/terminal-game
+
+However, as I did my best to read and understand the code, I found things I did not understand in the collision detection and asked the author about these issues on Twitter/X. He confirmed that I had found a bug! So I have corrected that bug, so that the collision detection is more logical. Roughly speaking, the player object was losing their :kind property and the ghosts were not checking for collision with :player, but it cancelled out and the program worked.
+
+Previous versions could not be committed to GitHub because my Virtual Machine lost internet at the end of September 2024, so I could only do local Ruby coding and testing. As of 29th October 2024 I now have a new Virtual Machine and have now made the remote repository 'RubyGameTutorial'.
