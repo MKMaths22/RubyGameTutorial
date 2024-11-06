@@ -200,8 +200,13 @@ class Screen
     end
   end
 
-  def render_death_message = puts "☠️ You died ☠️"
-  def render_level_passed_message = puts "🎉 Level passed 🎉"
+  def render_death_message 
+    puts '☠️ You died! ☠️'
+  end
+  
+  def render_level_passed_message 
+    puts '🎉 Level passed!🎉'
+  end
 end
 
 Game.new.run
